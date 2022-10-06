@@ -12,6 +12,9 @@ a{
     text-decoration: none;
     color: white;
 }
+i{
+    color: white;
+}
 
 .container{
     height: 100vh;
@@ -78,14 +81,45 @@ a{
 /* footer */
 #footer-container{
     background-color: #222222;
-    height: 100px;
+    height: 80px;
     width: 100%;
     z-index: 999;
+    padding-left:  1vw;
+    color: white;
 
     position: fixed;
     bottom: 0;
     left: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    /* spazio tra gli elementi */
+#footer-container i{ 
+    padding-right: 20px;
+}
+.item-flex{
+    display: flex;
+}
+.item-alignment{
+    text-align: center;
 }
 
+#meeting-management div{
+    padding-right: 10px;
+}
+.icons-green i{
+    color: #4bc800;
+}
 
+#end-meeting {
+    background-color:#4a4a4a;
+    height: 100%;
+}
 
+#end-meeting a{
+    padding: 0 20px;
+    align-self: center;
+    color: red;
+}
